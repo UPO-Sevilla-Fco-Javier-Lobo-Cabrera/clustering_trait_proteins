@@ -1,6 +1,7 @@
-Note: Linux is required.
+Note 1: Linux OS is required for the execution of certain scripts.
+Note 2: The scripts need of an input file (pdb_entry.txt) which can be downloaded from RCSB using FTP.
 
-Execute:
+In the directory already_computed_results there are already generated results. Nevertheless, to generate your own execution follow these steps:
 
 a) python main.py pdb_entry.txt
 
