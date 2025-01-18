@@ -39,6 +39,6 @@ the technique used to obtain the structure, i.e:
 This execution will generate the file pdb_id_and_compactness.txt, which contains the PDB id and associated residue density in a sphere of minimum volume.
 
 
-c) The analysis_of_results.Rmd file generates the plots and other useful information in this work from the obtained results. Specifically, it makes its calculations based on the results stored in the directory already_computed_results. So, if you would like analysis_of_results.Rmd to make calculations based on your executions you need first to locate your generated files (pdb_id_Q_and_len.txt, pdb_id_residue_percentages.txt and pdb_id_and_compactness.txt) within already_computed_results (replace the current files in that directory).
+c) The analysis_of_results.Rmd file generates the plots and other useful information in this work from the obtained results. If you would like analysis_of_results.Rmd to make calculations based on your executions you need first to locate your generated files in the corresponding already_computed_results. This is explained in more detail in the analysis_of_results.Rmd file.
 
 
