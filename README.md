@@ -1,6 +1,6 @@
 This repository contains code and associated data, both for the analytical section and the stochastic simulations associated with this work.
 
-Note: An RMarkdown for the analysis of results and creation of plots for both the analytical part and the stochastic simulations is found at data_analysis/analysis_of_results.Rmd
+The file analysis_of_results.Rmd analyzes results and generates plots for both the analytical part and the stochastic simulations.
 
 
 Francisco Javier Lobo-Cabrera¹* and José Antonio Prado-Bassas²
