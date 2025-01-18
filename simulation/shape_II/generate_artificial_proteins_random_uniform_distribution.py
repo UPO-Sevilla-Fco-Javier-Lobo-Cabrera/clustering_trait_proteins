@@ -47,12 +47,12 @@ def obtain_types_and_coordinates_imaginary_protein():
 	
 	#Calculation of expected density. The density is chosen
 	#from a symmetric distribution with maximum probability at 0.001185 and lower probability
-	#proportionally to the difference with 0.001185. The value of maximum  probability (0.001185) is the 
+	#proportionally to the difference with 0.00117. The value of maximum  probability (0.00117) is the 
 	#observed average density in cube of proteins from the PDB and the ends are the Q1 and Q3
 	#cuartiles:
-    possible_expected_densities = [0.000814 + x * (0.001507 - 0.000814) / (19) for x in range (0, 20)]
+    possible_expected_densities = [0.00081 + x * (0.00149 - 0.00081) / (19) for x in range (0, 20)]
 
-    weight_possible_expected_densities = [1 - (abs(0.001185 - value)/ 0.001185) for value in possible_expected_densities]
+    weight_possible_expected_densities = [1 - (abs(0.00117 - value)/ 0.00117) for value in possible_expected_densities]
     
     expected_density = random.choices(possible_expected_densities, weights=weight_possible_expected_densities, k=1)
     expected_density = expected_density[0]
