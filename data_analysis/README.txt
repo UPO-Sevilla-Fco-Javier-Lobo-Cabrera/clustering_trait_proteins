@@ -1,4 +1,4 @@
-Note 1: Linux OS is required for the execution of certain scripts. It has been tested in Debian Ubuntu.
+Note 1: Linux OS is required for the execution of certain scripts (tested in Debian Ubuntu).
 Note 2: The scripts need of an input file (pdb_entry.txt) which can be downloaded from RCSB PDB using FTP.
 
 In the directory already_computed_results there are already generated results. Nevertheless, to generate your own execution follow these steps:
