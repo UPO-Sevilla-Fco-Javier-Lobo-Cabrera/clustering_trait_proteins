@@ -152,7 +152,7 @@ print(den_average)
 
 # NOTE: TO RENDER RESULTS WITH YOUR EXECUTION PLACE YOUR NEW Q1_and_number_of_residues_imaginary_protein.txt OF EACH CASE INSIDE THE CORRESPONDING DIRECTORY.
 # FOR EXAMPLE, IF YOU HAVE EXECUTED FOR SHAPE I / CLUSTERING SIZE 6, THEN REPLACE THE FILE clustering_trait_proteins/simulation/shape_I/already_computed_results/shape_I_clustering_size_6/Q1_and_number_of_residues_imaginary_protein.txt FILE
-# WITH YOUR NEWLY GENERATED Q1_and_number_of_residues_imaginary_protein.txt
+# WITH YOUR NEWLY GENERATED Q1_and_number_of_residues_imaginary_protein.txt FILE.
 
 
 
