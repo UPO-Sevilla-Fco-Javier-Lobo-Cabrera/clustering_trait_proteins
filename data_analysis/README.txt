@@ -1,5 +1,5 @@
-Note 1: Linux OS is required for the execution of certain scripts.
-Note 2: The scripts need of an input file (pdb_entry.txt) which can be downloaded from RCSB using FTP.
+Note 1: Linux OS is required for the execution of certain scripts. It has been tested in Debian Ubuntu.
+Note 2: The scripts need of an input file (pdb_entry.txt) which can be downloaded from RCSB PDB using FTP.
 
 In the directory already_computed_results there are already generated results. Nevertheless, to generate your own execution follow these steps:
 
@@ -40,6 +40,6 @@ the technique used to obtain the structure, i.e:
 This execution will generate the file pdb_id_and_compactness.txt, which contains the PDB id and associated residue density in a sphere of minimum volume.
 
 
-c) The clustering_trait_proteins/analysis_of_results.Rmd file generates the plots and other useful information in this work from the obtained results. If you would like analysis_of_results.Rmd to make calculations based on your executions you need first to locate your generated files in the corresponding already_computed_results. This is explained in more detail in the analysis_of_results.Rmd file.
+c) The clustering_trait_proteins/analysis_of_results.Rmd file generates the plots and other useful information in this work from the obtained results. If you would like analysis_of_results.Rmd to make calculations based on your executions you need first to locate your generated files in the corresponding already_computed_results. This is explained in extensive detail in the clustering_trait_proteins/analysis_of_results.Rmd file.
 
 
