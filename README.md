@@ -1,4 +1,4 @@
-Code & Data Repository.
+This repository contains code and associated data, both for the analytical section and the stochastic simulations associated with this work.
 
 
 Francisco Javier Lobo-Cabrera¹* and José Antonio Prado-Bassas²
