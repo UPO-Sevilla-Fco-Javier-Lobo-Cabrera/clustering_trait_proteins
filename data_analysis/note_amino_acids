@@ -1,0 +1,3 @@
+Visual inspection of multiple protein structures where amino acids are colored according to their chemical type (hydrophobic, polar, acidic, basic or special) highlights that, apart from the existence of the hydrophobic core,
+amino acids tend to group in clusters according to their chemical type (polar, acidic, basic or special). It is important to note that special amino acids, as defined in this project,
+also seem to form characteristic clusters. Another definition of Q may be proposed which includes special amino acids in its computation.
